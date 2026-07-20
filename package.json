@@ -1,0 +1,21 @@
+{
+  "name": "newprac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "electronmon .",
+    "dev": "npm run build && electronmon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "electron": "^43.1.0",
+    "electronmon": "^2.0.4",
+    "typescript": "^6.0.3"
+  }
+}
